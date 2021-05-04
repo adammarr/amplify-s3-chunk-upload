@@ -1,5 +1,6 @@
 import { Hub, Logger, Parser, CredentialsClass } from '@aws-amplify/core';
 import { AWSS3Provider, StorageProvider } from '@aws-amplify/storage';
+import 'react-native-url-polyfill/auto';
 import * as events from 'events';
 import { StorageChunkManagedUpload } from './StorageChunkManagedUpload';
 const logger = new Logger('StorageChunkUpload');
